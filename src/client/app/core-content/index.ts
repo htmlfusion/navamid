@@ -1,0 +1,1 @@
+export {CoreContentComponent} from './core-content.component';

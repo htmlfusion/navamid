@@ -1,0 +1,16 @@
+@import "node_modules/ng2-material/dist/font.scss";
+@import "node_modules/ng2-material/source/components/toolbar/toolbar";
+@import "node_modules/ng2-material/source/components/button/button";
+$md-font-url: "node_modules/ng2-material/dist/";
+@import "node_modules/ng2-material/source/core";
+$md-primary: md-palette($md-grey, 900, 100, 700, $md-contrast-palettes);
+$md-accent: md-palette($md-deep-orange, 900, 300, 700, $md-contrast-palettes);
+$md-background: md-palette($md-grey, 50, 50, 50, $md-contrast-palettes) !default;
+@import "node_modules/ng2-material/source/components";
+
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

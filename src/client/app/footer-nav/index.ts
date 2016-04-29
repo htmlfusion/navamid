@@ -1,0 +1,1 @@
+export {FooterNavComponent} from './footer-nav.component';
