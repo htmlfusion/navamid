@@ -9,7 +9,7 @@ import {Component, OnInit} from 'angular2/core';
 export class CoreContentComponent implements OnInit {
 
   constructor() {
-
+    console.log('hello, i was called', window);
   }
   
   ngOnInit() {
